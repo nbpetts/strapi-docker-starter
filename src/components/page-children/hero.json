@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_page_children_heroes",
+  "info": {
+    "displayName": "Hero",
+    "icon": "rocket"
+  },
+  "options": {},
+  "attributes": {
+    "InternalName": {
+      "type": "string"
+    },
+    "Heading": {
+      "type": "string"
+    }
+  }
+}

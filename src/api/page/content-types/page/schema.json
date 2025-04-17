@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "pages",
+  "info": {
+    "singularName": "page",
+    "pluralName": "pages",
+    "displayName": "Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "InternalName": {
+      "type": "string"
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page-children.seo"
+    },
+    "Hero": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page-children.hero"
+    }
+  }
+}
